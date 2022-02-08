@@ -1,0 +1,58 @@
+cria novo projeto venv
+
+pip install django
+instala django
+
+ expecificar a versao django
+pip install django==2.2.3
+
+python manage.py runserver
+iniciar servidor
+
+iniciar projeto no django ele cria pasta com nome indicado antes do ponto(pasta principal
+onde vc registra todos os apps
+django-admin startproject RestorationsArt .
+
+
+criar novo app no terminal (cria pasta na raiz do projeto
+python manage.py startapp Home
+
+vai na pasta settings.py registrar em INSTALED APPS
+'Home.apps.HomeConfig',
+
+vai na pasta urls.py registrar a url em urlpatterns
+path('Home/', include('Home.urls')),
+from django.urls import include
+
+dentro da pasta no caso produto cria um novo arquivo urls.py e escreve dentro
+from django.urls import path
+from . import views
+urlpatterns = [ path('', views.index) ]
+
+dentro do aruivo views.py  do app home
+from django.http import HttpResponse
+def index(request):
+    return HttpResponse('Restorations Art Daniel Wolter')
+
+criando novo app portfolio
+python manage.py startapp portfolio 
+informa arquivo settings portfolio portfolio 'portfolio.apps.PortfolioConfig',
+iforma no arquivo urls urlpatterns path('portfolio/', include('portfolio.urls')),
+
+cria no diretorio portfolilio urls.py
+from django.urls import path
+from . import views
+urlpatterns = [
+    path('', views.metPort) 
+]
+
+cria o metPort novo metodo em views.py na pasta portfolio
+def metPort(request):
+    return render(request, '')
+    
+dentro da pasta portfolio cria pasta templates e dentro cria pasta portifolio e dentro cria index.html
+
+
+    
+
+

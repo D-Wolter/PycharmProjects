@@ -1,0 +1,8 @@
+
+
+acessar o diretorio do arquivo py com cd
+
+python3 nomedoarquivo.py
+
+
+#!/usr/bin/env python3

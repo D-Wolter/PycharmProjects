@@ -1,0 +1,11 @@
+sudo apt install qttools5-dev-tools
+comando instala QT5 Designer
+
+pip install pyqt5
+path para pasta
+
+funcao arquivo  p  novoarquivo
+pyic5 design.ui -o design.py
+converter arquivos do QT5design para fotmato python.py
+
+
