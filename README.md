@@ -1,3 +1,3 @@
 ## Este repositório tem alguns exercicios e anotações de um curso de **Python 3** da Platarforma Udemy.
 
-<p>https://www.udemy.com/course/python-3-do-zero-ao-avancado/learn/lecture/15215530?start=0#overview</p>
+<p>https://www.udemy.com/course/python-3-do-zero-ao-avancado/</p>
